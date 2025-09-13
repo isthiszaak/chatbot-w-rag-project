@@ -1,0 +1,11 @@
+langchain
+streamlit
+chromadb
+sentence-transformers
+pypdf
+prometheus-client
+langchain_community
+langchain-huggingface
+llama-cpp-python
+langchain-chroma
+langchain-huggingface
