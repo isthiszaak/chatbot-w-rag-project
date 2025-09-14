@@ -9,3 +9,4 @@ langchain-huggingface
 llama-cpp-python
 langchain-chroma
 langchain-huggingface
+langgraph

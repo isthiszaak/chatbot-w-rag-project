@@ -62,10 +62,10 @@ if prompt := st.chat_input("Qual é a sua pergunta?"):
         message_placeholder.markdown("Pensando...")
         try:
             # Chama a cadeia RAG para obter a resposta
-            response = chain.invoke({"query": prompt})
+            response = chain.invoke({"question": prompt})
             
             # Formata a resposta com o resultado e as fontes
-            full_response = response['result']
+            full_response = response['answer']
             
             source_docs = response.get('source_documents')
             if source_docs:

@@ -15,8 +15,7 @@ run-dev:
 	uvicorn app.main:run --timeout-keep-alive 60 --port 8080
 
 run-streamlit:
-	PYTHONPATH=. streamlit run app/src/chatbot_ui.py
-# 	streamlit run app/src/chatbot_ui.py
+	streamlit run chatbot_ui.py
 
 clear:
 	find . -type d -name '__pycache__' -exec rm -rf {} + && \
